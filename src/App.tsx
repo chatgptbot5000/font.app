@@ -5,7 +5,7 @@ import { exportFontsAsPng } from './lib/exportImage'
 import { loadUploadedFont } from './lib/fontFiles'
 import type { FontOption } from './types'
 
-const defaultSampleText = 'Maple & Stone Studio'
+const defaultSampleText = 'Sample Text'
 const fancyFontNames = new Set([
   'Black Jack',
   'Alex Brush',
