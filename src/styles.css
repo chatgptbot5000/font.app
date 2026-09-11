@@ -122,6 +122,21 @@ label {
   box-shadow: 0 2rem 6rem rgba(4, 14, 28, 0.36);
 }
 
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: stretch;
+}
+
+.hero-actions button {
+  width: 100%;
+}
+
+.back-site-button {
+  white-space: nowrap;
+}
+
 .hero-brand {
   display: flex;
   align-items: center;
@@ -260,16 +275,7 @@ h1 {
   color: var(--muted);
   line-height: 1.45;
 }
-.hero-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: stretch;
-}
 
-.back-site-button {
-  white-space: nowrap;
-}
 .font-list {
   display: grid;
   gap: 0.85rem;
