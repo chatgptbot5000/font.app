@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Font Finder</title>
   </head>
+
   <body>
+
     <button class="back-to-niagara" onclick="goBackToNiagara()">
-  ← Back to Niagara Laser
-</button>
+      ← Back to Niagara Laser
+    </button>
+
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx">
+
+    <!-- Your React/Vite app -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Back button logic -->
+    <script>
       function goBackToNiagara() {
-  if (document.referrer) {
-    window.history.back();
-  } else {
-    window.location.href = "https://niagaralaser.vercel.app/";
-  }
-}
+        if (document.referrer) {
+          window.history.back();
+        } else {
+          window.location.href = "https://niagaralaser.vercel.app/";
+        }
+      }
     </script>
-    
+
   </body>
 </html>
