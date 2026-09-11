@@ -105,7 +105,7 @@ export default function App() {
           <div>
             <h1 id="app-title">Font Finder</h1>
             <p className="hero-copy">
-              Compare one phrase across preset and uploaded fonts, then export only the options your client should see.
+              Find your perfect font and export what you like for easy sharing!
             </p>
           </div>
         </div>
