@@ -109,6 +109,17 @@ export default function App() {
             </p>
           </div>
         </div>
+        <div className="hero-actions">
+  <button
+    type="button"
+    className="back-site-button"
+    onClick={() => {
+      window.location.href = 'https://niagaralaser.vercel.app/'
+    }}
+  >
+    ← Back to Niagara Laser
+  </button>
+
         <button
           type="button"
           onClick={handleExport}
